@@ -1,0 +1,193 @@
+country,year,unemployment,power_change,new_head_of_state,title
+Canada,1991,10.30000019,false,,
+Canada,1992,11.19999981,false,,
+Canada,1993,11.39999962,true,Jean Chretien,Prime Minister
+Canada,1994,10.39999962,false,,
+Canada,1995,9.5,false,,
+Canada,1996,9.600000381,false,,
+Canada,1997,9.100000381,false,,
+Canada,1998,8.300000191,false,,
+Canada,1999,7.599999905,false,,
+Canada,2000,6.800000191,false,,
+Canada,2001,7.199999809,false,,
+Canada,2002,7.699999809,false,,
+Canada,2003,7.599999905,true,Paul Martin,Prime Minister
+Canada,2004,7.199999809,false,,
+Canada,2005,6.699999809,false,,
+Canada,2006,6.300000191,true,Stephen Harper,Prime Minister
+Canada,2007,6,false,,
+Canada,2008,6.099999905,false,,
+Canada,2009,8.300000191,false,,
+Canada,2010,8,false,,
+Canada,2011,7.400000095,false,,
+Canada,2012,7.199999809,false,,
+Canada,2013,7.099999905,false,,
+Canada,2014,6.900000095,false,,
+Germany,1991,5.599999905,false,,
+Germany,1992,6.599999905,false,,
+Germany,1993,7.900000095,false,,
+Germany,1994,8.399999619,false,,
+Germany,1995,8.100000381,false,,
+Germany,1996,8.899999619,false,,
+Germany,1997,9.800000191,false,,
+Germany,1998,9.199999809,true,Gerhard Schroeder,Chancellor
+Germany,1999,8.399999619,false,,
+Germany,2000,7.699999809,false,,
+Germany,2001,7.800000191,false,,
+Germany,2002,8.600000381,false,,
+Germany,2003,9.300000191,false,,
+Germany,2004,10.30000019,false,,
+Germany,2005,11.10000038,true,Angela Merkel,Chancellor
+Germany,2006,10.30000019,false,,
+Germany,2007,8.600000381,false,,
+Germany,2008,7.5,false,,
+Germany,2009,7.699999809,false,,
+Germany,2010,7.099999905,false,,
+Germany,2011,5.900000095,false,,
+Germany,2012,5.400000095,false,,
+Germany,2013,5.300000191,false,,
+Germany,2014,5,false,,
+France,1991,9.100000381,false,,
+France,1992,10.19999981,false,,
+France,1993,11.30000019,false,,
+France,1994,12.60000038,false,,
+France,1995,11.80000019,true,Jacques Chirac,President
+France,1996,12.39999962,false,,
+France,1997,12.60000038,false,,
+France,1998,12.10000038,false,,
+France,1999,12,false,,
+France,2000,10.19999981,false,,
+France,2001,8.600000381,false,,
+France,2002,8.699999809,false,,
+France,2003,8.600000381,false,,
+France,2004,9.199999809,false,,
+France,2005,8.899999619,false,,
+France,2006,8.800000191,false,,
+France,2007,8,true,Nicolas Sarkozy,President
+France,2008,7.400000095,false,,
+France,2009,9.100000381,false,,
+France,2010,9.300000191,false,,
+France,2011,9.199999809,false,,
+France,2012,9.899999619,true,Francois Hollande,President
+France,2013,10.39999962,false,,
+France,2014,9.899999619,false,,
+United Kingdom,1991,8.5,false,,
+United Kingdom,1992,9.899999619,false,,
+United Kingdom,1993,10.5,false,,
+United Kingdom,1994,9.800000191,false,,
+United Kingdom,1995,8.699999809,false,,
+United Kingdom,1996,8.300000191,false,,
+United Kingdom,1997,7.199999809,true,Tony Blair,Prime Minister
+United Kingdom,1998,6.199999809,false,,
+United Kingdom,1999,6,false,,
+United Kingdom,2000,5.599999905,false,,
+United Kingdom,2001,4.800000191,false,,
+United Kingdom,2002,5.199999809,false,,
+United Kingdom,2003,4.900000095,false,,
+United Kingdom,2004,4.699999809,false,,
+United Kingdom,2005,4.800000191,false,,
+United Kingdom,2006,5.5,false,,
+United Kingdom,2007,5.400000095,true,Gordon Brown,Prime Minister
+United Kingdom,2008,5.400000095,false,,
+United Kingdom,2009,7.800000191,false,,
+United Kingdom,2010,7.900000095,true,David Cameron,Prime Minister
+United Kingdom,2011,7.800000191,false,,
+United Kingdom,2012,8,false,,
+United Kingdom,2013,7.5,false,,
+United Kingdom,2014,6.300000191,false,,
+Italy,1991,10.10000038,false,,
+Italy,1992,9.300000191,true,Giuliano Amato,Prime Minister
+Italy,1993,10.19999981,true,Carlo Azeglio Ciampi,Prime Minister
+Italy,1994,11.10000038,true,Silvio Berlusconi,Prime Minister
+Italy,1995,11.69999981,true,Lamberto Dini,Prime Minister
+Italy,1996,11.89999962,true,Romano Prodi,Prime Minister
+Italy,1997,12,false,,
+Italy,1998,12.10000038,true,Massimo D'Alema,Prime Minister
+Italy,1999,11.69999981,false,,
+Italy,2000,10.80000019,true,Giuliano Amato,Prime Minister
+Italy,2001,9.600000381,true,Silvio Berlusconi,Prime Minister
+Italy,2002,9.199999809,false,,
+Italy,2003,8.899999619,false,,
+Italy,2004,7.900000095,false,,
+Italy,2005,7.699999809,false,,
+Italy,2006,6.800000191,true,Romano Prodi,Prime Minister
+Italy,2007,6.099999905,false,,
+Italy,2008,6.699999809,true,Silvio Berlusconi,Prime Minister
+Italy,2009,7.800000191,false,,
+Italy,2010,8.399999619,false,,
+Italy,2011,8.399999619,true,Mario Monti,Prime Minister
+Italy,2012,10.69999981,false,,
+Italy,2013,12.19999981,true,Enrico Letta,Prime Minister
+Italy,2014,12.5,true,Matteo Renzi,Prime Minister
+Japan,1991,2.099999905,true,Kiichi Miyazawa,Prime Minister
+Japan,1992,2.200000048,false,,
+Japan,1993,2.5,true,Morihiro Hosokawa,Prime Minister
+Japan,1994,2.900000095,true,Tomiichi Murayama,Prime Minister
+Japan,1995,3.200000048,false,,
+Japan,1996,3.400000095,true,Ryutaro Hashimoto,Prime Minister
+Japan,1997,3.400000095,false,,
+Japan,1998,4.099999905,true,Keizo Obuchi,Prime Minister
+Japan,1999,4.699999809,false,,
+Japan,2000,4.800000191,true,Yoshiro Mori,Prime Minister
+Japan,2001,5,true,Junichiro Koizumi,Prime Minister
+Japan,2002,5.400000095,false,,
+Japan,2003,5.199999809,false,,
+Japan,2004,4.699999809,false,,
+Japan,2005,4.400000095,false,,
+Japan,2006,4.099999905,true,Shinzo Abe,Prime Minister
+Japan,2007,3.900000095,true,Yasuo Fukuda,Prime Minister
+Japan,2008,4,true,Taro Aso,Prime Minister
+Japan,2009,5,true,Yukio Hatoyama,Prime Minister
+Japan,2010,5,true,Naoto Kan,Prime Minister
+Japan,2011,4.5,true,Yoshihiko Noda,Prime Minister
+Japan,2012,4.300000191,true,Shinzo Abe,Prime Minister
+Japan,2013,4,false,,
+Japan,2014,3.700000048,false,,
+Russian Federation,1991,12.19999981,true,Boris Yeltsin,President
+Russian Federation,1992,5.199999809,false,,
+Russian Federation,1993,5.900000095,false,,
+Russian Federation,1994,8.100000381,false,,
+Russian Federation,1995,9.399999619,false,,
+Russian Federation,1996,9.699999809,false,,
+Russian Federation,1997,11.80000019,false,,
+Russian Federation,1998,13.30000019,false,,
+Russian Federation,1999,13,false,,
+Russian Federation,2000,10.60000038,true,Vladimir Putin,President
+Russian Federation,2001,9,false,,
+Russian Federation,2002,7.900000095,false,,
+Russian Federation,2003,8.199999809,false,,
+Russian Federation,2004,7.800000191,false,,
+Russian Federation,2005,7.099999905,false,,
+Russian Federation,2006,7.099999905,false,,
+Russian Federation,2007,6,false,,
+Russian Federation,2008,6.199999809,true,Dmitry Medvedev,President
+Russian Federation,2009,8.300000191,false,,
+Russian Federation,2010,7.300000191,false,,
+Russian Federation,2011,6.5,false,,
+Russian Federation,2012,5.5,true,Vladimir Putin,President
+Russian Federation,2013,5.5,false,,
+Russian Federation,2014,5.099999905,false,,
+United States,1991,6.900000095,false,,
+United States,1992,7.599999905,false,,
+United States,1993,7,true,Bill Clinton,President
+United States,1994,6.199999809,false,,
+United States,1995,5.699999809,false,,
+United States,1996,5.5,false,,
+United States,1997,5,false,,
+United States,1998,4.599999905,false,,
+United States,1999,4.300000191,false,,
+United States,2000,4.099999905,false,,
+United States,2001,4.800000191,true,George W. Bush,President
+United States,2002,5.900000095,false,,
+United States,2003,6.099999905,false,,
+United States,2004,5.599999905,false,,
+United States,2005,5.199999809,false,,
+United States,2006,4.699999809,false,,
+United States,2007,4.699999809,false,,
+United States,2008,5.900000095,false,,
+United States,2009,9.399999619,true,Barack Obama,President
+United States,2010,9.699999809,false,,
+United States,2011,9,false,,
+United States,2012,8.199999809,false,,
+United States,2013,7.400000095,false,,
+United States,2014,6.199999809,false,,

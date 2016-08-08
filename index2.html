@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://dimplejs.org/dist/dimple.v2.0.0.min.js"></script>
+    
+    <style>
+
+      h2 {
+        font-family: "Arial";
+        text-align: center;
+      }
+
+      p {
+        font-family: "Arial";
+        margin-left: 100px;
+        margin-right: 150px;
+      }
+
+    </style>
+
+    <script type="text/javascript">
+      function draw(data) {
+      
+     
+      // Creating the header and a short summary of the infographic
+
+          d3.select("body")
+            .append("h2")
+            .text("Unemployment in G8 countries");
+          
+          d3.select("body")
+            .append("p")
+            .text("This graph shows the unemployment rates in the G8 countries in the period between 1991 and 2014. Major political and economical events, such as power changes and financial crises, have proved to be a significant influence in determining the dynamics of employment. A high degree of political stability usually correlates with a decrease in unemployment and vice versa.")
+           
+          d3.select("body")
+            .append("p")
+            .text("Hover over the data points with your mouse to find out more.")
+              
+      // Creating an svg object for my chart  
+          
+          "use strict";
+          var margin = 150,
+              width = 1400 - margin,
+              height = 750 - margin;
+
+          var svg = d3.select("body")
+            .append("svg")
+              .attr("width", width + margin)
+              .attr("height", height + margin)
+            .append('g')
+                .attr('class','chart');
+
+      // Attaching a chart to the svg object
+          
+          var myChart = new dimple.chart(svg, data);
+          myChart.setBounds(margin,25,width-margin-250,height-margin)       
+
+      // Defining and styling the X axis
+          
+          var x = myChart.addTimeAxis("x", "year");
+          x.tickFormat="%Y";
+          x.title="Year";
+          x.fontSize="12px";
+
+      // Defining and styling the Y axis
+
+          var y = myChart.addMeasureAxis("y", "unemployment");
+          y.tickFormat=".1f"; 
+          y.title="Unemployment rate (in percent)";
+          y.fontSize="12px";
+
+      // Using the ticks attribute to place a tick for every percentage point of unemployment rate
+
+          y.ticks = Math.ceil(d3.max(data,function(d){
+            return d.unemployment;
+          }))
+
+      // Passing all additional information (that isn't being plotted) to the invisible Z axis    
+
+          var z = myChart.addAxis("z", ["power_change", "new_head_of_state", "title"]);
+      
+      // Creating and styling the series
+          
+          var series_line = myChart.addSeries("country", dimple.plot.line);
+          series_line.lineMarkers=true;
+          series_line.z=z;
+          
+      // Customizing tooltips
+      // Tootips have to contain at least the country, the year and the unemployment rate
+      // If a change in power happened in a given country in a given year, this information
+      // also has to be included in the tooltip
+         
+          series_line.getTooltipText=function(d){
+            var ttText=[];
+            if (d.zField[0]==="false"){
+              ttText=["Country: "+d.aggField[0],
+                      "Year: "+(d.x.getYear()+1900),
+                      "Unemployment rate: "+Math.round(d.cy*10)/10+"%"];
+            } else {
+              ttText=["Country: "+d.aggField[0],
+                      "Year: "+(d.x.getYear()+1900),
+                      "Unemployment rate: "+Math.round(d.cy*10)/10+"%",
+                      d.zField[1]+" becomes the "+d.zField[2]+" of "+d.aggField[0]];
+            }
+            return ttText;
+          };
+
+      // Creating and styling the legend    
+
+          var legend = myChart.addLegend(width-margin-65,75,150,300);
+          legend.fontSize="14px";
+      
+      // Drawing the chart
+  
+          myChart.draw();
+
+      // Changing the font for the axes titles
+
+          svg.selectAll('.dimple-axis.dimple-title')
+            .style("font-size", "14px")
+            .style("font-type", "Arial")
+            .style("font-weight", "bold");
+
+      // Changing the font for the legend
+
+          svg.selectAll('.dimple-legend')
+            .style("font-family", "Arial");
+
+      // Modifying the size of the markers depending on whether there was a change in power
+
+          svg.selectAll('circle')
+            .attr("r", function(d){
+              var r=0;
+              if (d.z==="false"){
+                r=2;
+              } else {
+                r=5;
+              };
+              return r;
+            });
+          
+      // Modifying the fill of the markers depending on whether there was a change in power
+        
+          svg.selectAll('circle')
+            .attr("fill", function(d){
+              var fill="";
+              if (d.z==="false"){
+                fill="white";
+              } else {
+                fill="#fb8072";
+              }
+              return fill;
+            });
+
+      // Modifying the opacity of the markers depending on whether there was a change in power
+
+          svg.selectAll('circle')
+            .attr("fill-opacity", function(d){
+              var o=0;
+              if (d.z==="false"){
+                o=0;
+              } else {
+                o=0.7;
+              }
+              return o;
+            });
+          
+       // Adding the encoding for the change in power to the legend
+
+          svg.append("circle")
+            .attr('cx', 1042)
+            .attr('cy', 260)
+            .attr('r', 7)
+            .attr('fill', '#fb8072')
+            .attr('stroke','rgb(201,153,202)')
+            .attr('stroke-width',2);
+
+          svg.append('text')
+            .attr('x',1065)
+            .attr('y',265)
+            .text('Change in power')
+            .attr('font-size',14)
+            .attr('font-family','Arial');
+
+
+
+        // Enhancements in v2
+
+        // Loading the list of major global events
+
+          events=d3.csv("globalevents.csv", function(d){
+            d['Year']=+d['Year'];
+            return d;
+          }
+          ,addGlobalEvents);
+          
+        // Adding information about major global events to the time axis
+
+          function addGlobalEvents(data){
+            
+            leftBoundary=150;
+            rightBoundary=1000;
+            lowerBoundary=497;
+            minYear=1991;
+            maxYear=2014;
+            base=6;
+
+            for(i=0; i<data.length; i++){
+
+              // Highlighting the ticks on the X axis depending on occurrence of a major event
+                
+               ticks=svg.selectAll(".dimple-axis").selectAll('.tick')[0];
+               for (j=0;j<ticks.length;j++){
+                 if (data[i].Year===+ticks[j].textContent){
+                   ticks[j].style['fill']='rgb(50,134,152)';
+                   ticks[j].style["font-weight"]="bold";
+                 };
+               };
+
+             // Defining coordinates of the "pointer" triangles
+
+               upperPointX=leftBoundary+(rightBoundary-leftBoundary)*(data[i].Year-minYear)/(maxYear-minYear);
+               upperPointY=lowerBoundary;
+
+               leftPointX=upperPointX-base/2;
+               leftPointY=upperPointY+25;
+
+               rightPointX=leftPointX+base;
+               rightPointY=leftPointY;
+
+               triangleCoords=upperPointX+","+upperPointY+" "+leftPointX+","+leftPointY+" "+rightPointX+","+rightPointY;              
+
+             // Drawing triangles  
+
+               svg.append('polygon')
+                .attr('points',triangleCoords)
+                .attr('fill','rgb(201,231,237)');
+
+             // Breaking descriptions of the major event into lines to fit it into bubbles  
+
+               var words = data[i].Event.split(' ');
+
+               var oldLine=words[0];
+               var newLine="";
+               var lines=[];
+               var line_index=0;
+               var line_length=13;
+
+               for (j=1;j<words.length;j++){
+                 newLine=oldLine+' '+words[j];
+                 if (newLine.length<line_length){
+                   oldLine=newLine;
+                 } else {
+                   lines[line_index]=oldLine;
+                   line_index++;
+                   oldLine=words[j];
+                 };
+               };
+               lines[line_index]=oldLine;
+
+             // Drawing text containers
+                            
+               svg.append('rect')
+                .attr('x',leftPointX-(35-base/2))
+                .attr('y',leftPointY)
+                .attr('width',64+base)
+                .attr('height',lines.length*14+5)
+                .attr('rx',10)
+                .attr('ry',10)
+                .attr('fill','rgb(201,231,237)')
+                .text(data[i].Event);
+
+             // Adding text lines to the bubbles             
+
+               for (j=0;j<lines.length;j++){
+                 svg.append('text')
+                  .attr('x',leftPointX-28)
+                  .attr('y',leftPointY+14+j*14)
+                  .style('font-size', 11)
+                  .style('font-family','Arial')
+                  .text(lines[j]);
+                 };              
+                 
+            };
+
+        // Adding the encoding for major global events to the legend
+
+          svg.append('text')
+            .attr('x',1025)
+            .attr('y',287)
+            .style('font-size', 14)
+            .style('font-family','Arial')
+            .style('fill','rgb(50,134,152)')
+            .style('font-weight','bold')
+            .text('1992');
+
+          svg.append('text')
+            .attr('x',1065)
+            .attr('y',287)
+            .text('Major global event')
+            .attr('font-size',14)
+            .attr('font-family','Arial');            
+          
+          };      
+          
+        };
+
+    </script>
+  </head>
+<body>
+  <script type="text/javascript">
+  
+  // Loading the data and passing it as the argument to the draw function
+  
+  d3.csv("g8_unemployment.csv", function(d) {
+        d['unemployment'] = +d['unemployment'];
+        return d;
+      }, draw);
+  
+  </script>
+</body>
+</html>
