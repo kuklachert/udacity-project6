@@ -18,7 +18,7 @@ Other design decisions (font type, font size, opacity) are of cosmetic nature.
 
 This is how the first version of the graphic (index1.html) came about. I showed this visualisation to 3 friends of mine to get feedback.
 
-As I mentioned in the summary, the goal of this graphic was to create a user-driven narrative where every user finds different stories and snippets of information on her own by navigating through the graphic. After getting feedback, I enhanced my visualisation with additional data and visual elements.
+As I mentioned in the summary, the goal of this graphic was to create a user-driven narrative where every user finds different stories and snippets of information on her own by navigating through the graphic. After getting feedback, I enhanced my visualisation with additional data and visual elements (see *Visualisation enhancements after feedback*).
 
 ### Feedback
 
