@@ -54,9 +54,9 @@ Overall I think that with the enhanced data set the infographic has quite a lot 
 
 ### Resources
 
-http://koaning.s3-website-us-west-2.amazonaws.com/html/d3format.html to modify the number format on the Y axis as well as the tooltips
+* http://koaning.s3-website-us-west-2.amazonaws.com/html/d3format.html to modify the number format on the Y axis as well as the tooltips
 
-http://stackoverflow.com/questions/4540684/java-round-up-any-number for rounding up numbers
+* http://stackoverflow.com/questions/4540684/java-round-up-any-number for rounding up numbers
 
 http://dimplejs.org/adhoc_viewer.html?id=adhoc_bar_custom_tooltips to customize tooltips
 
