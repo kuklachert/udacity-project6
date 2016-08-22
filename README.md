@@ -50,6 +50,7 @@ After hearing from my friends, I decided to add/ change the following things:
 
 3) To make the markers less ugly, I just made them smaller. I think they look much more elegant with the size 2.
 
+The enhanced visualisation can be found in index_final.html.
 Overall I think that with the enhanced data set the infographic has quite a lot of content and still remains pretty navigable.
 
 ### Resources
