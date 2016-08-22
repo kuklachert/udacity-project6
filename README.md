@@ -9,8 +9,10 @@ The aim of the infographic was to let the user explore the data and make her own
 
 ### Design
 
-As the underlying data is a time series, the choice of the plot type is an obvious one: a line chart. dimple.js allows to create line charts with datapoint markers and ready-made tooltips which is very useful, as you can put further information into the tooltips that isn't hidden from the user. Each line color represents a single country, the X and Y axes are used to depict numerical data (year and unemployment rate), and the tooltips contain additional information regarding changes in power.
-Additionally, I decided to mark the data points which contain a change in power and make them more visible. This should make the user more curious ('why are these data points bigger?') and to navigate through tooltips to find out more.
+As the underlying data is a time series, the choice of the plot type is an obvious one: a line chart. dimple.js allows to create line charts with datapoint markers and ready-made tooltips which is very useful, as you can put further information into the tooltips that isn't hidden from the user. 
+
+Each line represents a single country, the X and Y axes are used to depict numerical data (year and unemployment rate), and the tooltips contain additional information (change in power in a country). Additionally, I decided to mark the data points which contain a change in power and make them more visible. This should make the user more curious ('why are these data points bigger?') and to navigate through tooltips to find out more.
+
 A legend is of course necessary to map the line colors to single countries and to explain the meaning of markers.
 Other design decisions (font type, font size, opacity) are of cosmetic nature.
 
