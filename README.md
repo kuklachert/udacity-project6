@@ -54,14 +54,14 @@ Overall I think that with the enhanced data set the infographic has quite a lot 
 
 ### Resources
 
+Apart from the dimple.js (https://github.com/PMSI-AlignAlytics/dimple/wiki) and d3.js (https://github.com/d3/d3/wiki) documentations, I used the following links for my project: 
+
 * http://koaning.s3-website-us-west-2.amazonaws.com/html/d3format.html to modify the number format on the Y axis as well as the tooltips
 
 * http://stackoverflow.com/questions/4540684/java-round-up-any-number for rounding up numbers
 
-http://dimplejs.org/adhoc_viewer.html?id=adhoc_bar_custom_tooltips to customize tooltips
+* http://dimplejs.org/adhoc_viewer.html?id=adhoc_bar_custom_tooltips to customize tooltips
 
-https://www.sitepoint.com/community/t/css-text-indent-all-lines/1707 to indent text paragraphs using CSS
+* https://www.sitepoint.com/community/t/css-text-indent-all-lines/1707 to indent text paragraphs using CSS
 
-http://stackoverflow.com/questions/32831489/idomatic-way-of-drawing-a-triangle-in-d3 to draw pointer triangles for the bubbles below the X axis.
-
-
+* http://stackoverflow.com/questions/32831489/idomatic-way-of-drawing-a-triangle-in-d3 to draw pointer triangles for the bubbles below the X axis.
