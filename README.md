@@ -26,7 +26,7 @@ I'm only including the most interesting feedback and piece of advice here.
 
 *Friend 1*: 
 
-"Big red points instantly attract attention and I decided to find out why some countries have more and the other have fewer of them. It's interesting that Japan had a new prime minister almost every year but still did well with regards to unemployment. Japan is kind of Anti-Italy in this regard".
+"Big red points instantly attract attention and I decided to find out why some countries have more and the other have fewer of them. It's interesting that Japan had a new prime minister almost every year but still did well with regards to unemployment. Japan is kind of an Anti-Italy in this regard".
 
 "Transparent markers on the data points without power change look pretty ugly".
 
