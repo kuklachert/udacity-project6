@@ -3,9 +3,9 @@
 
 ### Summary
 
-In this project, I decided to visualise the unemployment rates of the G8 countries in the period between 1991 and 2014 (time series extracted from the World Bank database). To add further context, I accompanied the unemployment time series with the timeline of major global events as well as the timeline of political changes (new Head of State or Head of the Executive) in the respective countries.
+In this project, I decided to visualise the unemployment rates of the G8 countries in the period between 1991 and 2014 (time series extracted from the World Bank database, g8_unemplyoment.csv). To add further context, I accompanied the unemployment time series with the timeline of major global events as well as the timeline of political changes (new Head of State or Head of the Executive) in the respective countries.
 
-The aim of the infographic was to let the user explore the data and make her own conclusions about what drives unemployment rates across the world. In my opinion there are multiple stories one can find in this graphic, e.g. some countries' remarkable decrease in unemployment after changes in power (most notably Germany during Angela Merkel's reign), the devastating effect of the financial crisis all over the world, or the correlation between political stability (low number of changes in power) with low/decreasing unemployment, which can be well seen on the examples of Italy and Germany (but is contradicted by Japan). 
+The aim of the infographic was to let the user explore the data and make her own conclusions about what drives unemployment rates across the world. In my opinion there are multiple stories one can find in this graphic, e.g. some countries' remarkable decrease in unemployment after changes in power (most notably Germany during Angela Merkel's reign), the devastating effect of the financial crisis all over the world, or the correlation between political stability (low number of changes in power) with low/decreasing unemployment. 
 
 ### Design
 
@@ -24,4 +24,33 @@ As I mentioned in the summary, the goal of this graphic was to create a user-dri
 
 I'm only including the most interesting feedback and piece of advice here.
 
-*Friend 1*:
+*Friend 1*: 
+
+"Big red points instantly attract attention and I decided to find out why some countries have more and the other have fewer of them. It's interesting that Japan had a new prime minister almost every year but still did well with regards to unemployment. Japan is kind of Anti-Italy in this regard".
+
+"Transparent markers on the data points without power change look pretty ugly".
+
+*Friend 2*:
+
+"TBF i think this graph is pretty uninformative compared to the ones you could see in the press, DER SPIEGEL for instance. It's cool to see when changes in power occurred in each country, but there's some global context missing here. You don't see any mention of the 2007-2008 financial crisis, or the European debt crisis, but these are also events that had a major influence on macroeconomic variables. It would be cool if you added this data to your visualisation somehow."
+
+*Friend 3*:
+
+"I spent 2 minutes hovering over data points and got bored. Too little information".
+
+"Also, the lines for the US and France have almost the same color".
+
+### Visualisation enhancements after feedback
+
+After hearing from my friends, I decided to add/ change the following things:
+
+1) To add further context to the data, I went to Wikipedia and composed a list of major global events between 1991 and 2014 (globalevents.csv) to enhance the infographic. I decided to depict this data along the X axis in form of bubbles. Each year that appears in this dataset is highlighted and accompanied with a light-blue bubble containing the description of the event. The bubbles have been added to the axis using d3.js.
+
+2) With regards to the color palette, it's true that it's not that easy to distinguish between France and the USA if the standard color scheme is used. However I tried creating different palettes using the ColorBrewer site and wasn't satisfied with any of the results. The issue pertains and I found the ColorBrewer palettes less aesthetically pleasing, so I decided to stick with the standard palette.
+
+3) To make the markers less ugly, I just made them smaller. I think they look much more elegant with the size 2.
+
+Overall I think that with the enhanced data set the infographic has quite a lot of content and still remains pretty navigable.
+
+### Resources
+
