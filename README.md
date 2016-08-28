@@ -22,7 +22,7 @@ The last design decision, that was inspired by one of my friends' feedback, was 
 
 ### Feedback
 
-To provide a complete picture of the progress of the visualisation, I'll start with the feedback I've gotten for the previous version of my visualisation (that has now been discarded).
+To provide a complete picture of the progress of the graphic, I'll start with the feedback I've gotten for the previous versions of my visualisation (that have now been discarded).
 I'm only including the most interesting feedback and piece of advice here.
 
 **Initial version (see index1.html)**
@@ -55,7 +55,7 @@ After hearing from my friends, I decided to add/ change the following things:
 
 **Feedback for the revised version (see index_final.html)**
 
-After having my project reviewed and getting my visualisation re-done with a new data sample, I once again asked my friends what they think. This was the most interesting feedback:
+After having my project reviewed by Udacity and getting my visualisation re-done with a new data sample, I once again asked my friends what they thought. This was the most interesting feedback:
 
 *Friend 1*: 
 
