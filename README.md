@@ -5,7 +5,7 @@
 
 ### Summary
 
-The main question that this visualisation tries to answer is the following: can the widespread belief, that the economies of the Eastern European countries have benefitted from joining the EU, be confirmed by the data? One of the most widely used economic indicators is the unemployment rate, so it would be interesting to find out whether the unemployment of the selected countries has decreased since they joined the EU. 
+The main question that this visualisation tries to shed light on is the following: does data confirm the widespread belief that the economies of the Eastern European countries have benefitted from joining the EU? One of the most widely used economic indicators is the unemployment rate, so it would be interesting to find out whether the unemployment of the selected countries has decreased since they joined the EU. 
 
 The graphic shows that Poland was the only country to achieve a significant decrease of unemployment after becoming a Member State, whereas the other countries cound only show short-term improvements, sometimes followed by a very steep rise in unemployment starting around 2008. The main contributors for this deterioration might have been economic crises that were plaguing the global economy during this period of time.
 
