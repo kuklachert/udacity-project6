@@ -1,0 +1,140 @@
+country,year,unemployment,eu_admission
+Poland,1995,13.30000019,false
+Poland,1996,12.39999962,false
+Poland,1997,11,false
+Poland,1998,9.899999619,false
+Poland,1999,12.30000019,false
+Poland,2000,16.29999924,false
+Poland,2001,18.39999962,false
+Poland,2002,19.89999962,false
+Poland,2003,19.39999962,false
+Poland,2004,19.10000038,true
+Poland,2005,17.70000076,false
+Poland,2006,13.80000019,false
+Poland,2007,9.600000381,false
+Poland,2008,7.099999905,false
+Poland,2009,8.199999809,false
+Poland,2010,9.600000381,false
+Poland,2011,9.600000381,false
+Poland,2012,10.10000038,false
+Poland,2013,10.30000019,false
+Poland,2014,9,false
+Czech Republic,1995,4,false
+Czech Republic,1996,3.900000095,false
+Czech Republic,1997,4.300000191,false
+Czech Republic,1998,5.900000095,false
+Czech Republic,1999,8.5,false
+Czech Republic,2000,8.800000191,false
+Czech Republic,2001,8,false
+Czech Republic,2002,7,false
+Czech Republic,2003,7.5,false
+Czech Republic,2004,8.199999809,true
+Czech Republic,2005,7.900000095,false
+Czech Republic,2006,7.099999905,false
+Czech Republic,2007,5.300000191,false
+Czech Republic,2008,4.400000095,false
+Czech Republic,2009,6.699999809,false
+Czech Republic,2010,7.300000191,false
+Czech Republic,2011,6.699999809,false
+Czech Republic,2012,7,false
+Czech Republic,2013,7,false
+Czech Republic,2014,6.099999905,false
+Hungary,1995,9.899999619,false
+Hungary,1996,10,false
+Hungary,1997,9,false
+Hungary,1998,8.899999619,false
+Hungary,1999,6.900000095,false
+Hungary,2000,6.599999905,false
+Hungary,2001,5.699999809,false
+Hungary,2002,5.599999905,false
+Hungary,2003,5.800000191,false
+Hungary,2004,5.800000191,true
+Hungary,2005,7.199999809,false
+Hungary,2006,7.5,false
+Hungary,2007,7.400000095,false
+Hungary,2008,7.800000191,false
+Hungary,2009,10,false
+Hungary,2010,11.19999981,false
+Hungary,2011,11,false
+Hungary,2012,11,false
+Hungary,2013,10.19999981,false
+Hungary,2014,7.699999809,false
+Estonia,1995,9.699999809,false
+Estonia,1996,9.899999619,false
+Estonia,1997,10.39999962,false
+Estonia,1998,9.5,false
+Estonia,1999,11.60000038,false
+Estonia,2000,13.39999962,false
+Estonia,2001,13.10000038,false
+Estonia,2002,10,false
+Estonia,2003,11.30000019,false
+Estonia,2004,10.19999981,true
+Estonia,2005,8,false
+Estonia,2006,5.900000095,false
+Estonia,2007,4.599999905,false
+Estonia,2008,5.5,false
+Estonia,2009,13.5,false
+Estonia,2010,16.70000076,false
+Estonia,2011,12.30000019,false
+Estonia,2012,10,false
+Estonia,2013,8.600000381,false
+Estonia,2014,7.400000095,false
+Latvia,1996,20.20000076,false
+Latvia,1997,14.69999981,false
+Latvia,1998,14.5,false
+Latvia,1999,13.80000019,false
+Latvia,2000,14.19999981,false
+Latvia,2001,13.80000019,false
+Latvia,2002,13.80000019,false
+Latvia,2003,12.10000038,false
+Latvia,2004,11.69999981,true
+Latvia,2005,10,false
+Latvia,2006,7,false
+Latvia,2007,6.099999905,false
+Latvia,2008,7.699999809,false
+Latvia,2009,17.5,false
+Latvia,2010,19.5,false
+Latvia,2011,16.20000076,false
+Latvia,2012,15,false
+Latvia,2013,11.89999962,false
+Latvia,2014,10.80000019,false
+Bulgaria,1995,15.89999962,false
+Bulgaria,1996,13.69999981,false
+Bulgaria,1997,13.69999981,false
+Bulgaria,1998,12.19999981,false
+Bulgaria,1999,14.10000038,false
+Bulgaria,2000,16.20000076,false
+Bulgaria,2001,19.89999962,false
+Bulgaria,2002,18.10000038,false
+Bulgaria,2003,13.69999981,false
+Bulgaria,2004,12,false
+Bulgaria,2005,10.10000038,false
+Bulgaria,2006,9,false
+Bulgaria,2007,6.900000095,true
+Bulgaria,2008,5.599999905,false
+Bulgaria,2009,6.800000191,false
+Bulgaria,2010,10.19999981,false
+Bulgaria,2011,11.30000019,false
+Bulgaria,2012,12.30000019,false
+Bulgaria,2013,12.89999962,false
+Bulgaria,2014,11.39999962,false
+Romania,1995,8,false
+Romania,1996,6.699999809,false
+Romania,1997,5.5,false
+Romania,1998,5.599999905,false
+Romania,1999,6.199999809,false
+Romania,2000,7,false
+Romania,2001,6.599999905,false
+Romania,2002,8.100000381,false
+Romania,2003,6.900000095,false
+Romania,2004,7.699999809,false
+Romania,2005,7.199999809,false
+Romania,2006,7.300000191,false
+Romania,2007,6.400000095,true
+Romania,2008,5.800000191,false
+Romania,2009,6.900000095,false
+Romania,2010,7,false
+Romania,2011,7.199999809,false
+Romania,2012,6.800000191,false
+Romania,2013,7.099999905,false
+Romania,2014,6.800000191,false
