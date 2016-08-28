@@ -7,9 +7,9 @@
 
 In this project, I decided to visualise the unemployment rates of selected EU countries in the period between 1991 and 2014 (time series extracted from the World Bank database, see *eu_unemployment.csv*). To add further context to the unemployment stats, I accompanied them with the timeline of major events in the EU (*eu_events.csv*), as well as the timeline of political changes (admission into the EU, new Head of State or Head of the Executive, see *eu_unemployment.csv*) in the respective countries.
 
-There are multiple insights that can be derived from the infographic, such as the positive impact of the EU admission for Eastern European countries (Poland and Czech Republic), the devastating effect of the economic crises on the Southern European economies since 2007, a correlation between political instability (changes in power) with high unemployment, as well as some individual success stories (such as Angela Merkel's Germany or Spain's improvement under Aznar).
+There are multiple insights that can be gathered from the infographic, such as the positive impact of the EU admission for Eastern European countries (Poland and Czech Republic), the devastating effect of the recent economic crises on the Southern European economies, a correlation between political instability (changes in power) with high unemployment, as well as some individual success stories (such as Angela Merkel's Germany or Spain's improvement under Aznar).
 
-**Compared to my previous submission, I feel that the new data sample provides for a much more coherent story, as the countries included are much more interconnected economically (thus allowing to extract individual successes and failures more easily) and have similar transparent and democractic political system where changes in power more accurately reflect the degree of economic stability**.
+**Compared to my previous submission, I feel that the new data sample provides a much more coherent story, as the countries included are much more interconnected economically (thus allowing to extract individual success and failur stories more reliably) and have similar political systems where changes in power rather accurately reflect the degree of economic stability**.
 
 ### Design
 
@@ -20,9 +20,7 @@ Each color in the chart represents a single country, the X and Y coordinates are
 A legend is of course necessary to map the line colors to single countries and to explain the meaning of markers.
 Other design decisions (font type, font size, opacity) are of cosmetic nature.
 
-This is how the first version of the graphic (index1.html) came about. I showed this visualisation to 3 friends of mine to get feedback.
-
-As I mentioned in the summary, the goal of this graphic was to create a user-driven narrative where every user finds different stories and snippets of information on her own by navigating through the graphic. After getting feedback, I enhanced my visualisation with additional data and visual elements (see *Visualisation enhancements after feedback*).
+This is how the first version of the graphic (index1.html) came about. I showed this visualisation to 3 friends of mine to get feedback. After getting feedback, I enhanced my visualisation with additional data and visual elements (see *Visualisation enhancements after feedback*).
 
 ### Feedback
 
@@ -43,6 +41,9 @@ I'm only including the most interesting feedback and piece of advice here.
 "I spent 2 minutes hovering over data points and got bored. Too little information".
 
 "Also, the lines for the US and France have almost the same color".
+
+**Feedback for the revised version of the project**:
+
 
 ### Visualisation enhancements after feedback
 
