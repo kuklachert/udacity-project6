@@ -53,7 +53,7 @@ After hearing from my friends, I decided to add/ change the following things:
 
 3) To make the markers less ugly, I just made them smaller. I think they look much more elegant with the size 2.
 
-**Feedback for the revised version (see index_final.html)**
+**Revised version (see index_final.html)**
 
 After having my project reviewed by Udacity and getting my visualisation re-done with a new data sample, I once again asked my friends what they thought. This was the most interesting feedback:
 
