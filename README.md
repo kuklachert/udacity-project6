@@ -13,7 +13,7 @@ The graphic shows that Poland was the only country to achieve a significant decr
 
 As the underlying data is a time series, the choice of the plot type is an obvious one: a line chart. dimple.js allows to create line charts with datapoint markers and ready-made tooltips which is very useful, as you can put further information into the tooltips that isn't hidden from the user. 
 
-Each color in the chart represents a single country, the X and Y coordinates are used to depict numerical data (year and unemployment rate), and the tooltips contain detailed information (exact numbers for each country). Additionally, I decided to encode for every country the exact year it has joined the EU - the corresponding data points are being highlighted using size and colour. This should make the user more curious ('why are these data points bigger and yellow?') and to navigate through tooltips to find out more.
+Each color in the chart represents a single country, the X and Y coordinates are used to depict numerical data (year and unemployment rate), and the tooltips contain detailed information (exact numbers for each country). Additionally, I decided to encode for every country the exact year it has joined the EU - the corresponding data points are being highlighted using size and fill. This should make the user more curious ('why are these data points bigger and yellow?') and to navigate through tooltips to find out more.
 
 A legend is of course necessary to map the line colors to single countries and to explain the meaning of markers.
 Other design decisions (font type, font size, opacity) are of cosmetic nature.
