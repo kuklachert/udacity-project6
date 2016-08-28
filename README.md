@@ -24,7 +24,7 @@ This is how the first version of the graphic (index1.html) came about. I showed 
 
 **In the revised version of the project, I added one more encoding to the infographic: yellow marker for the year in which a country joined the EU**.
 
-### Feedback (initial version, see index1.html)
+### Feedback for the initial version (see index1.html)
 
 I'm only including the most interesting feedback and piece of advice here.
 
