@@ -18,7 +18,7 @@ Each color in the chart represents a single country, the X and Y coordinates are
 A legend is of course necessary to map the line colors to single countries and to explain the meaning of markers.
 Other design decisions (font type, font size, opacity) are of cosmetic nature.
 
-The last design decision, that was inspired by one of my friends' feedback, was to include non-country-specific information about major political and economic events in the EU below the X axis. This data is contained in an additional file (eu_events.csv) and is plotted using text bubbles that are connected to the ticks of the X axis. The years are highlighted on the X axis in case a major event has occurred in that year. 
+The last design decision, that was inspired by one of my friends' feedback, was to include non-country-specific information about major political and economic events in the EU below the X axis. This data is contained in an additional file (eu_events.csv) and is plotted using text bubbles that are connected to the ticks of the X axis. The years on the X axis are highlighted in case a major event has occurred in that year. 
 
 ### Feedback for the initial version (see index1.html)
 
