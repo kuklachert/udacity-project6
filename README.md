@@ -1,6 +1,8 @@
 # Udacity Data Analyst Nanodegree
 ## Project 6 - Illya Payanov
 
+**Please note**: the file *index_final.html* contains the revised version of the vizualisation which is based on the data from *eu_unemployment.csv* and *eu_events.csv*. I renamed my first submission, that didn't meet all specifications, to *index2.html*. The corresponding data files for the first submission are *g8_unemployment.csv* and *globalevents.csv*.
+
 ### Summary
 
 In this project, I decided to visualise the unemployment rates of the G8 countries in the period between 1991 and 2014 (time series extracted from the World Bank database, see g8_unemployment.csv). To add further context, I accompanied the unemployment time series with the timeline of major global events as well as the timeline of political changes (new Head of State or Head of the Executive) in the respective countries.
