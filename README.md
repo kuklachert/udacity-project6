@@ -1,7 +1,7 @@
 # Udacity Data Analyst Nanodegree
 ## Project 6 - Illya Payanov
 
-**Please note**: the main file in this version is *index_final.html* which contains the revised version of the vizualisation and is based on the data from *eu_unemployment.csv* and *eu_events.csv*. I renamed my first submission, that didn't meet all specifications, to *index2.html*. The corresponding data files for the first submission are *g8_unemployment.csv* and *globalevents.csv*.
+**Please note**: the main file in this version is *index_final.html* which contains the revised version of the vizualisation and is based on the data from *eu_unemployment.csv* and *eu_events.csv*. I renamed the file with my first submission, that didn't meet all specifications, to *index2.html*. The corresponding data files for the first submission are *g8_unemployment.csv* and *globalevents.csv*.
 
 ### Summary
 
