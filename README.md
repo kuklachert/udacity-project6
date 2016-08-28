@@ -20,9 +20,12 @@ Other design decisions (font type, font size, opacity) are of cosmetic nature.
 
 The last design decision, that was inspired by one of my friends' feedback, was to include non-country-specific information about major political and economic events in the EU below the X axis. This data is contained in an additional file (eu_events.csv) and is plotted using text bubbles that are connected to the ticks of the X axis. The years on the X axis are highlighted in case a major event has occurred in that year. 
 
-### Feedback for the initial version (see index1.html)
+### Feedback
 
+To provide a complete picture of the progress of the visualisation, I'll start with the feedback I've gotten for the previous version of my visualisation (that has now been discarded).
 I'm only including the most interesting feedback and piece of advice here.
+
+**Initial version (see index1.html)**
 
 *Friend 1*: 
 
@@ -40,7 +43,7 @@ I'm only including the most interesting feedback and piece of advice here.
 
 "Also, the lines for the US and France have almost the same color".
 
-### Visualisation enhancements after feedback (see index2.html)
+**Visualisation enhancements after initial feedback (see index2.html)**
 
 After hearing from my friends, I decided to add/ change the following things:
 
@@ -50,17 +53,17 @@ After hearing from my friends, I decided to add/ change the following things:
 
 3) To make the markers less ugly, I just made them smaller. I think they look much more elegant with the size 2.
 
-### Feedback for the revised version (see index_final.html)
+**Feedback for the revised version (see index_final.html)**
 
 After having my project reviewed and getting my visualisation re-done, I once again asked my friends what they think. This was the most interesting feedback:
 
 *Friend 1*: 
 
-"I see you've changed the selection of countries in the graphic. Including Greece and Spain in the changes the perception of the stats a bit, because the differences between other countries really seem minor now. The developments in Greece and Spain, on the other side, are crazy. It's also remarkable how well the Poles have been doing since joining the EU".
+"I see you've changed the selection of countries in the graphic and the text above. I tried to answer the question in the title and for most countries it's far from obvious that there was any improvement. Only Poland's unemployment rate has strongly decreased. Latvia and Estonia had some violent swings around 2008 which is anything but an improvement".
 
 *Friend 2*:
 
-"Including international events on the X axis has made the graphic more readable and comprehensible. Can you redo this graphic in three years after we've seen the effects of Brexit?"
+"Including international events on the X axis has made the graphic more readable and comprehensible. I don't think that most countries improved their situation since joining the EU."
 
 ### Resources
 
