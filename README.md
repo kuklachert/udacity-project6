@@ -55,7 +55,7 @@ After hearing from my friends, I decided to add/ change the following things:
 
 **Feedback for the revised version (see index_final.html)**
 
-After having my project reviewed and getting my visualisation re-done, I once again asked my friends what they think. This was the most interesting feedback:
+After having my project reviewed and getting my visualisation re-done with a new data sample, I once again asked my friends what they think. This was the most interesting feedback:
 
 *Friend 1*: 
 
