@@ -9,7 +9,7 @@ In this project, I decided to visualise the unemployment rates of selected EU co
 
 There are multiple insights that can be gathered from the infographic, such as the positive impact of the EU admission for Eastern European countries (Poland and Czech Republic), the devastating effect of the recent economic crises on the Southern European economies, a correlation between political instability (changes in power) with high unemployment, as well as some individual success stories (such as Angela Merkel's Germany or Spain's improvement under Aznar).
 
-**Compared to my previous submission, I feel that the new data sample provides a much more coherent story, as the countries included are much more interconnected economically (thus allowing to extract individual success and failur stories more reliably) and have similar political systems where changes in power rather accurately reflect the degree of economic stability**.
+**Compared to my previous submission, I feel that the new data sample provides a much more coherent story, as the countries included are much more interconnected economically (thus allowing to extract individual success and failure stories more reliably) and have similar political systems where changes in power more accurately reflect the degree of economic stability**.
 
 ### Design
 
@@ -22,7 +22,9 @@ Other design decisions (font type, font size, opacity) are of cosmetic nature.
 
 This is how the first version of the graphic (index1.html) came about. I showed this visualisation to 3 friends of mine to get feedback. After getting feedback, I enhanced my visualisation with additional data and visual elements (see *Visualisation enhancements after feedback*).
 
-### Feedback
+**In the revised version of the project, I added one more encoding to the infographic: yellow marker for the year in which a country joined the EU**.
+
+### Feedback (initial version, see index1.html)
 
 I'm only including the most interesting feedback and piece of advice here.
 
@@ -42,10 +44,7 @@ I'm only including the most interesting feedback and piece of advice here.
 
 "Also, the lines for the US and France have almost the same color".
 
-**Feedback for the revised version of the project**:
-
-
-### Visualisation enhancements after feedback
+### Visualisation enhancements after feedback (see index2.html)
 
 After hearing from my friends, I decided to add/ change the following things:
 
@@ -55,8 +54,17 @@ After hearing from my friends, I decided to add/ change the following things:
 
 3) To make the markers less ugly, I just made them smaller. I think they look much more elegant with the size 2.
 
-The enhanced visualisation can be found in index_final.html.
-Overall I think that with the enhanced data set the infographic has quite a lot of content and still remains pretty navigable.
+### Feedback for the revised version (see index_final.html)
+
+After having my project reviewed and getting my visualisation re-done, I once again asked my friends what they think. This was the most interesting feedback:
+
+*Friend 1*: 
+
+"I see you've changed the selection of countries in the graphic. Including Greece and Spain in the changes the perception of the stats a bit, because the differences between other countries really seem minor now. The developments in Greece and Spain, on the other side, are crazy. It's also remarkable how well the Poles have been doing since joining the EU".
+
+*Friend 2*:
+
+"Including international events on the X axis has made the graphic more readable and comprehensible. Can you redo this graphic in three years after we've seen the effects of Brexit?"
 
 ### Resources
 
