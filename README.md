@@ -1,28 +1,24 @@
 # Udacity Data Analyst Nanodegree
 ## Project 6 - Illya Payanov
 
-**Please note: the main file in this version is *index_final.html* which contains the revised version of the visualisation and is based on the data from *eu_unemployment.csv* and *eu_events.csv*. I renamed the file with my first submission, that didn't meet all specifications, to *index2.html*. The corresponding data files for the first submission are *g8_unemployment.csv* and *globalevents.csv*.**
+**Please note**: the main file in this version is *index_final.html* which contains the revised version of the visualisation and is based on the data from *eu_unemployment.csv* and *eu_events.csv*. I renamed the file with my first submission, that didn't meet all specifications, to *index2.html*. The corresponding data files for the first submission are *g8_unemployment.csv* and *globalevents.csv*.
 
 ### Summary
 
-In this project, I decided to visualise the unemployment rates of selected EU countries in the period between 1991 and 2014 (time series extracted from the World Bank database, see *eu_unemployment.csv*). To add further context to the unemployment stats, I accompanied them with the timeline of major events in the EU (*eu_events.csv*), as well as the timeline of political changes (admission into the EU, new Head of State or Head of the Executive, see *eu_unemployment.csv*) in the respective countries.
+The main question that this visualisation tries to answer is the following: can the widespread belief, that the economies of the Eastern European countries have benefitted from joining the EU, be confirmed by the data? One of the most widely used economic indicators is the unemployment rate, so it would be interesting to find out whether the unemployment of the selected countries has decreased since they joined the EU. 
 
-There are multiple insights that can be gathered from the infographic, such as the positive impact of the EU admission for Eastern European countries (Poland and Czech Republic), the devastating effect of the recent economic crises on the Southern European economies, a correlation between political instability (changes in power) and high unemployment, as well as some individual success stories (such as Angela Merkel's Germany or Spain's improvement under Aznar).
-
-**Compared to my previous submission, I feel that the new data sample provides a much more coherent story, as the countries included are much more interconnected economically (thus allowing to extract individual success and failure stories more reliably) and have similar political systems where changes in power more accurately reflect the degree of economic stability**.
+The graphic shows that Poland was the only country to achieve a significant decrease of unemployment after becoming a Member State, whereas the other countries cound only show short-term improvements, sometimes followed by a very steep rise in unemployment starting around 2008. The main contributors for this deterioration might have been economic crises that were plaguing the global economy during this period of time.
 
 ### Design
 
 As the underlying data is a time series, the choice of the plot type is an obvious one: a line chart. dimple.js allows to create line charts with datapoint markers and ready-made tooltips which is very useful, as you can put further information into the tooltips that isn't hidden from the user. 
 
-Each color in the chart represents a single country, the X and Y coordinates are used to depict numerical data (year and unemployment rate), and the tooltips contain additional information (change in power in a country). Additionally, I decided to mark the data points which contain a change in power and to make them more visible. This should make the user more curious ('why are these data points bigger?') and to navigate through tooltips to find out more.
+Each color in the chart represents a single country, the X and Y coordinates are used to depict numerical data (year and unemployment rate), and the tooltips contain detailed information (exact numbers for each country). Additionally, I decided to encode for every country the exact year it has joined the EU - the corresponding data points are being highlighted using size and colour. This should make the user more curious ('why are these data points bigger and yellow?') and to navigate through tooltips to find out more.
 
 A legend is of course necessary to map the line colors to single countries and to explain the meaning of markers.
 Other design decisions (font type, font size, opacity) are of cosmetic nature.
 
-This is how the first version of the graphic (index1.html) came about. I showed this visualisation to 3 friends of mine to get feedback. After getting feedback, I enhanced my visualisation with additional data and visual elements (see *Visualisation enhancements after feedback*).
-
-**In the revised version of the project, I added one further encoding to the infographic: yellow marker for the year in which a country joined the EU**.
+The last design decision, that was inspired by one of my friends' feedback, was to include non-country-specific information about major political and economic events in the EU below the X axis. This data is contained in an additional file (eu_events.csv) and is plotted using text bubbles that are connected to the ticks of the X axis. The years are highlighted on the X axis in case a major event has occurred in that year. 
 
 ### Feedback for the initial version (see index1.html)
 
