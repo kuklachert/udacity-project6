@@ -5,9 +5,11 @@
 
 ### Summary
 
-In this project, I decided to visualise the unemployment rates of the G8 countries in the period between 1991 and 2014 (time series extracted from the World Bank database, see g8_unemployment.csv). To add further context, I accompanied the unemployment time series with the timeline of major global events as well as the timeline of political changes (new Head of State or Head of the Executive) in the respective countries.
+In this project, I decided to visualise the unemployment rates of selected EU countries in the period between 1991 and 2014 (time series extracted from the World Bank database, see g8_unemployment.csv). To add further context to the unemployment stats, I accompanied them with the timeline of major events in the EU, as well as the timeline of political changes (new Head of State or Head of the Executive) in the respective countries.
 
-The aim of the infographic was to let the user explore the data and make her own conclusions about what drives unemployment rates across the world. In my opinion there are multiple stories one can find in this graphic, e.g. some countries' remarkable decrease in unemployment after changes in power (most notably Germany during Angela Merkel's reign), the devastating effect of the financial crisis all over the world, or the correlation between political stability (low number of changes in power) with low/decreasing unemployment. 
+There are multiple insights that can be derived from the infographic, such as the positive impact of the EU admission for Eastern European countries (Poland and Czech Republic), the devastating effect of the economic crises on the Southern European economies since 2007, a correlation between political instability (changes in power) with high unemployment, as well as some individual success stories (such as Angela Merkel's Germany or Spain's improvement under Aznar).
+
+**Compared to my previous submission, I feel that the new data sample provides for a much more coherent story, as the countries included are much more interconnected economically (thus allowing to extract individual successes and failures more easily) and have similar transparent and democractic political system where changes in power more accurately reflect the degree of economic stability**.
 
 ### Design
 
