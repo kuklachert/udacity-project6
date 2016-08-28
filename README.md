@@ -22,7 +22,7 @@ Other design decisions (font type, font size, opacity) are of cosmetic nature.
 
 This is how the first version of the graphic (index1.html) came about. I showed this visualisation to 3 friends of mine to get feedback. After getting feedback, I enhanced my visualisation with additional data and visual elements (see *Visualisation enhancements after feedback*).
 
-**In the revised version of the project, I added one more encoding to the infographic: yellow marker for the year in which a country joined the EU**.
+**In the revised version of the project, I added one further encoding to the infographic: yellow marker for the year in which a country joined the EU**.
 
 ### Feedback for the initial version (see index1.html)
 
